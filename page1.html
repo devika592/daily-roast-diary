@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Roast - Retro Diary</title>
+  <style>
+    /* Retro paper background */
+    body {
+      font-family: 'Courier New', monospace;
+      background: #f5e6ca;
+      color: #4b2e19;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-image: repeating-linear-gradient(
+        to bottom,
+        #f5e6ca,
+        #f5e6ca 24px,
+        #f0dcc0 25px
+      );
+    }
+
+    /* Retro diary heading */
+    header h1 {
+      font-size: 2.2em;
+      padding: 20px;
+      text-shadow: 1px 1px 0 #d2b48c;
+      animation: float 3s ease-in-out infinite;
+      border-bottom: 3px double #b5651d;
+      display: inline-block;
+      margin-top: 20px;
+      background: rgba(255,255,255,0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    /* Retro button */
+    button {
+      font-size: 1.2em;
+      padding: 15px 30px;
+      background: #c68c53;
+      color: #fff8dc;
+      border: 2px solid #5c3d2e;
+      border-radius: 8px;
+      box-shadow: 2px 2px 0 #5c3d2e;
+      cursor: pointer;
+      font-family: 'Courier New', monospace;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      background: #a97142;
+      transform: scale(1.05);
+      box-shadow: 3px 3px 0 #5c3d2e;
+    }
+
+    main {
+      padding: 50px;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📜 One Roast a Day Keeps the Ego Away</h1>
+  </header>
+
+  <main>
+    <p>Every day tells a story... write yours in ink that stings.</p> 
+    <button onclick="location.href='page2.html'">✏️ Time to roll</button> 
+  </main>
+</body>
+</html>
