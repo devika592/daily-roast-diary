@@ -75,12 +75,8 @@ The workflow begins when the user opens the Daily Roast Diary and selects the �
 
 ### Project Demo
 #
+[video](https://drive.google.com/file/d/1nLYRWSYMk9uvdrcx2MYuSuY3alh7NH32/view?usp=drive_link)
 
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 
 Made with ❤️ at TinkerHub Useless Projects 
