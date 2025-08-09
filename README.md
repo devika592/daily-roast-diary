@@ -40,9 +40,10 @@ For Hardware: none
 
 ### Implementation
 The application is built using HTML for structure, Tailwind CSS for styling, and JavaScript for interactivity. Font Awesome is integrated for icons, while LocalStorage ensures all diary entries and roasts are stored directly in the browser without requiring a backend server. The app runs seamlessly on any modern web browser, making it lightweight, responsive, and accessible across devices. Development and testing were carried out in **Visual Studio Code, with version control managed via Git and deployment through GitHub.
+(https://devika592.github.io/daily-roast-diary/)
 
-# Installation
-Clone the repository: git clone https://github.com/your-username/daily-roast-diary.git
+# Installation 
+Clone the repository: git clone https://github.com/devika592/daily-roast-diary.git
 
 Navigate to the project folder: cd daily-roast-diary
 
